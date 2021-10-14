@@ -1,0 +1,43 @@
+Analysis and visualization of parking tickets in NYC during 2015 and 2017.
+
+This project was done as a final project of Business Analyst Course. The data was taken from NYCOpenData and modified into SQL database, for the students' use.
+
+The analysis was done using mostly Power BI and was divided to 5 different reports.
+
+The first step was the preparation of the data (ETL) using Power Query:
+Preparation of dimenstion tables by merging existing tables by different categories - location, issuers, veichle.
+Preparation of Facts table - merging the violation description and fine amount details to the exsiting parking violation table, fixing data types and cleaning missing or duplicate values.
+Creation of Date dimenstion table using 'M' language. 
+Filteration of the data years - using 2015 to 2017.
+
+
+Modeling the data:
+Creation of relationships between the dimention tables and the facts table.
+
+
+Creating measures and calculated columns:
+Calculation  of tickets count, average fine, revenue, profit, YTD, MTD ect.
+
+
+The project includes 5 reports, each exmanining different analysis subject.
+
+The first report examines the different kind of parking violations and the different occurance time. 
+The report shows the most popular violations for each borough in NY, the distribution of parking violations according to weekdays and different time bins of the day.
+
+The second report examines the different body types.
+It shows the tickets count and average fine amount for each body type, the most common violations and a heat map showing the geographic location of the violations.
+
+The third report examines violations done by trucks in Manahattan. 
+It shows the streets and avenues in which the highest number of violations occured, as well as the 3 most common violations.
+
+The fourth report exmaines the different issuing agencies.
+It shows the tickets count, revenue, profit and average anual salary for each issuing agency, distribution of normalized tickets count by months and years.
+
+The fifth report examines more general insights such as average missing parking and standing spots in NY and a heat map showing its location. 
+
+The main concluations drawn from this project are:
+There is a severe shortage in parking spots during weekdays and working hours. Most of the parking violations are attributed to local NY citizens using private cars for parking in "no parking" areas.
+A proper reccomandation to solve this would be adding parking spots and parking lots as well as developing an accesible application for parking payments.
+
+
+
